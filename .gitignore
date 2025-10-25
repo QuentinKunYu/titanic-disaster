@@ -1,0 +1,9 @@
+# Data files
+src/data/
+
+# Python virtual environment
+venv/
+.venv/
+
+# System files
+.DS_Store
