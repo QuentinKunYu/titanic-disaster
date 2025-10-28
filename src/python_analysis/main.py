@@ -91,5 +91,4 @@ submission = pd.DataFrame({
     "Survived": test_predictions
 })
 
-print("\nFirst 5 rows of the final prediction output:")
-print(submission.head())
+print(submission)
