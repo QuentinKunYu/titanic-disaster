@@ -1,10 +1,5 @@
 # Titanic Survival Prediction Analysis
 
-This repository contains a **data analysis project** focused on predicting passenger survival aboard the **RMS Titanic**, based on the [Kaggle Titanic competition dataset](https://www.kaggle.com/competitions/titanic/data).  
-The analysis demonstrates **data preprocessing, model building (Logistic Regression)**, and **prediction generation** using both **Python** and **R**, each containerized with **Docker** for full reproducibility.
-
----
-
 ## Project Overview
 
 The goal of this project is to analyze Titanic passenger data (`train.csv`) and build a predictive model to estimate survival probabilities.  
