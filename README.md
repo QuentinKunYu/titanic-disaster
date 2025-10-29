@@ -17,23 +17,23 @@ The workflow includes:
 5. **Generating predictions** for the test dataset.
 
 The complete process is implemented **twice**:
-- once in **Python**, and  
+- once in **Python** 
 - once in **R**,  
 
 each inside a **Docker container** to ensure consistent environments.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 .
 ├── .gitignore               # Specifies intentionally untracked files
-├── README.md                # This file
+├── README.md                
 └── src/
-    ├── data/                # Data files (must be downloaded manually)
-    │   ├── train.csv        # ---> PLACE DOWNLOADED FILE HERE <---
-    │   └── test.csv         # ---> PLACE DOWNLOADED FILE HERE <---
+    ├── data/                # Data files
+    │   ├── train.csv        
+    │   └── test.csv         
     ├── python_analysis/     # Python implementation
     │   ├── Dockerfile
     │   ├── main.py
